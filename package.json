@@ -1,0 +1,20 @@
+{
+  "name": "tanki-wiki-translator",
+  "version": "1.0.0",
+  "description": "抓取并翻译 3D 坦克维基页面。",
+  "main": "translate.js",
+  "scripts": {
+    "start": "node translate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bing-translate-api": "^4.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "fast-xml-parser": "^4.4.0",
+    "pluralize": "^8.0.0",
+    "puppeteer": "^22.10.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
